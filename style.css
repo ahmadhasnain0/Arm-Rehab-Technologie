@@ -103,7 +103,6 @@ opacity: 0.6;
   letter-spacing: 0.5px;
 
 }
-
 .h1 {
   padding-top: 4%;
   font-size: 44px;
@@ -140,8 +139,11 @@ opacity: 0.6;
   background-repeat: no-repeat;
 
 }
-
-.button,.button1:hover {
+.button1:hover {
+  box-shadow: #3c7080;
+  transform: scale(1.05);
+}
+.button:hover {
   box-shadow: #3c7080;
   transform: scale(1.05);
 }
@@ -163,7 +165,6 @@ opacity: 0.6;
   -webkit-user-select: none;
   touch-action: manipulation;
  margin: 10px;
- 
   background-image: url(../../images/btn.svg);
   background-position: 0px 0px;
   background-size: cover;
@@ -210,17 +211,18 @@ margin-left: 5px;
   height: 350px;
   width:50%;
   }
-
-
-
-
+/* features */
+.feature-img{
+  width:150px;
+  height: 150px;
+}
  /* Backgrounds */
   .bg-blue{
       background-color:#1b93c9 ;
   }
-  
-  
-  
+  .bg-gray{
+    background-color:#737373 ;
+}
  /* text colors */
 
   .text-blue{
