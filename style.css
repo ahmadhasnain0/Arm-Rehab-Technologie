@@ -186,7 +186,6 @@ body {
 .backGroung_Image {
   background-repeat: no-repeat;
   position: center;
-  width: 100%;
   transform: rotate(15deg);
 }
 
@@ -219,6 +218,7 @@ body {
 .h-about-us {
   height: 350px;
   width: 50%;
+  min-width: 300px;
 }
 
 /* features */
@@ -233,7 +233,7 @@ body {
 }
 
 .bg-gray {
-  background-color: #737373;
+  background-color: #798ca873;
 }
 
 /* text colors */
@@ -244,4 +244,7 @@ body {
 
 .text-gray {
   color: #616E8E !important;
+}
+.cursor{
+  cursor: pointer;
 }
